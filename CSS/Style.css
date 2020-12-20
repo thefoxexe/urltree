@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     animation: breath 7s ease-in-out infinite;
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #ffffff;
 }
 
 .container {
