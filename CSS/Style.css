@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+body {
+    background-image: url(/images/body.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    animation: breath 7s ease-in-out infinite;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 60%;
+}
+
+.link-box {
+    border: 2px solid #fff;
+    padding: 15px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+.link-box a{
+    color: #fff;   
+}
+
+.link-box:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #EAF0F1;
+}
+
+@keyframes breath {
+    0%   { background-size: 100% 100vh; }
+    50% { background-size: 110% 110vh; }
+    100% { background-size: 100% 100vh; }
+  }
+
+@media (max-width:600px){
+    .container {
+        width: 100%;
+    }
+
+    
+}
